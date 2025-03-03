@@ -1,54 +1,52 @@
-# 📌 NLP Sentiment Analysis on Yelp Reviews
+# Titanic Dataset Analysis & Logistic Regression
 
-## 📝 Project Overview
-This project performs **Natural Language Processing (NLP)** techniques to analyze sentiment in Yelp reviews. Using machine learning models, the goal is to classify reviews based on their sentiment and extract meaningful insights.
+This repository contains an analysis of the Titanic dataset and a logistic regression model to predict passenger survival.
 
----
+## Files in This Repository
 
-## 📂 Repository Structure
+- **`titanic.csv`** - The dataset containing passenger details.
+- **`Titanic dataset analysis.ipynb`** - Exploratory data analysis (EDA) of the Titanic dataset.
+- **`Logistic-Regression_titanic_data.ipynb`** - Logistic regression model implementation to predict survival.
 
-- **`NLP-Project.ipynb`** – Jupyter Notebook containing data preprocessing, exploratory data analysis (EDA), and sentiment classification models.
-- **`yelp.csv`** – Dataset containing Yelp reviews with corresponding ratings.
+## Project Overview
 
----
+The goal of this project is to analyze the Titanic dataset and build a predictive model using logistic regression. The analysis includes:
 
-## 🚀 Features
-- **Text Cleaning & Preprocessing**: Tokenization, stopword removal, stemming/lemmatization.
-- **Exploratory Data Analysis (EDA)**: Word clouds, distribution of ratings, and sentiment visualization.
-- **Feature Engineering**: TF-IDF, CountVectorizer, Word Embeddings.
-- **Machine Learning Models**: Logistic Regression, Naïve Bayes.
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature selection and engineering
+- Building and evaluating a logistic regression model
 
----
+## Installation & Usage
 
-## 📊 Dataset Description
-The `yelp.csv` file contains:
-- **text**: Review text
-- **stars**: Rating (1-5)
-- **useful, funny, cool**: User reactions to reviews
-
----
-
-## ⚙️ Installation & Dependencies
-### Prerequisites:
-- Python 3.x
-- Jupyter Notebook
-- Required Libraries: 
-  ```bash
-  pip install pandas numpy matplotlib seaborn nltk scikit-learn wordcloud
-  ```
-## 📈 How to Run
-
-   - Clone the Repository
-  ```bash
-  git clone https://github.com/yourusername/NLP-Yelp-Sentiment.git
-  cd NLP-Yelp-Sentiment
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/titanic-analysis.git
+   cd titanic-analysis
    ```
-   - Open NLP-Project.ipynb in Jupyter Notebook.
-- Run each cell step by step.
+2. Install dependencies:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
+3. Run Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open and execute the notebooks.
 
-## 🔍 Future Scope
+## Results & Insights
+- Key factors affecting survival.
+- Performance of the logistic regression model.
+- Visualizations and statistical summaries of passenger data.
 
-- Implementing Transformer-based NLP models like BERT or GPT for better sentiment classification.
-- Expanding the dataset with more reviews for better generalization.
-- Deploying the model as a REST API for real-time sentiment analysis.
-   
+## Contributing
+Feel free to contribute by improving the code or adding new analyses. Fork the repository and submit a pull request.
+
+## Future Scope
+- Enhance model accuracy using advanced techniques like          ensemble learning and deep learning.
+- Develop an interactive dashboard for real-time data visualization and insights.
+- Deploy the model as a web application for user-friendly access and predictions.
+
+
+---
+
